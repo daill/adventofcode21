@@ -15,28 +15,29 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 '''
 
-
 import os
+from posixpath import splitext
 
-def measure():
-    count = 0
-    with open(os.path.abspath('./1201/depths')) as file:
+
+def move():
+    with open(os.path.abspath('./1202/input')) as file:
+        posH = 0
+        posD = 0
+        aim = 0
         lines = file.readlines()
-        window = []
+        # split line
         for line in lines:
-            if len(window) < 4:
-                window.append(int(line))
-                print(str(window))
-            else:
-                print(str(window) + " " + str(sum(window)-window[3]) + "  " + str(sum(window)-window[0]))
-                if (sum(window)-window[3]) < (sum(window)-window[0]):
-                    count += 1
-                del window[0]
-                window.insert(3, int(line))
-        return count
+            splitted = line.split( )
+            print(splitted)
+            if splitted[0] == "forward":
+                posH += int(splitted[1])
+                posD += int(splitted[1]) * aim
+            if splitted[0] == "down":
+                aim += int(splitted[1])
+            if splitted[0] == "up":
+                aim -= int(splitted[1])
+        print("posH {0} and posD {1} product {2}".format(posH, posD, posH*posD))
 
-
-    
 
 if __name__ == '__main__':
-    print("increased: {0} times".format(measure()))
+    move()
