@@ -9,3 +9,4 @@ just my small solutions to the advent of code :)
 - 12/05/21 done
 - 12/06/21 done
 - 12/07/21 done
+- 12/08/21 done
