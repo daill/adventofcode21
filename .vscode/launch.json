@@ -8,9 +8,9 @@
           "type": "lldb",
           "request": "launch",
           "name": "Debug",
-          "program": "${workspaceRoot}/1210/main/target/debug/main",
-          "args": [],
-          "cwd": "${workspaceRoot}/1210/main/target/debug/",
+          "program": "${workspaceRoot}/1212/main/target/debug/main",
+          "args": ["../../../input"],
+          "cwd": "${workspaceRoot}/1212/main/target/debug/",
           "sourceLanguages": ["rust"]
       }
   ]

@@ -12,3 +12,7 @@ just my small solutions to the advent of code :)
 - 12/08/21 done
 - 12/09/21 done
 - 12/10/21 done py & rust
+- 12/11/21 done rust
+- 12/12/21 done py
+- 12/13/21 done py 
+- 12/10/21 done py
