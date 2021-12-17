@@ -1,6 +1,6 @@
 # adventofcode21
 
-just my small solutions to the advent of code :)
+just my solutions to the advent of code :)
 
 - 12/01/21 done
 - 12/02/21 done
@@ -15,4 +15,7 @@ just my small solutions to the advent of code :)
 - 12/11/21 done rust
 - 12/12/21 done py
 - 12/13/21 done py 
-- 12/10/21 done py
+- 12/14/21 done py
+- 12/15/21 done py
+- 12/16/21 done py
+- 12/17/21 done py
