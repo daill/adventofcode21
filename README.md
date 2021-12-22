@@ -19,3 +19,9 @@ just my solutions to the advent of code :)
 - 12/15/21 done py
 - 12/16/21 done py
 - 12/17/21 done py
+- 12/18/21 done py
+- 12/19/21 done py
+- 12/20/21 done but with a little inpiration py
+- 12/21/21 partially py
+  
+Will end here because of the time I have to spend :)
